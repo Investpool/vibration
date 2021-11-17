@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 function App() {
-  navigator.vibrate(10000);
+  navigator.vibrate(5000);
 
   return (
     <div>
