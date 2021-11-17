@@ -1,22 +1,16 @@
 import React from "react";
 import "./App.css";
 
-
-
-
-
 function App() {
-  navigator.vibrate(5000);
-
-
+  navigator.vibrate(10000);
 
   return (
     <div>
-      <button style={{marginLeft: "20px"}} className="badge badge-primary">
-      HI, MR HAYFORD</button>
+      <button onClick className="badge badge-primary">
+        END OF DISCUSSION
+      </button>
     </div>
   );
 }
 
 export default App;
-
