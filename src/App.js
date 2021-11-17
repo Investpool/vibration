@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <button onClick className="badge badge-primary">
+      <button onClick="App()" className="badge badge-primary">
         END OF DISCUSSION
       </button>
     </div>
